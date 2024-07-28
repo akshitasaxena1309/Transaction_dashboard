@@ -41,6 +41,7 @@ month (required): Month for which to fetch transactions.
 search (optional): Search query for product title, description, or price.
 page (optional): Page number for pagination (default: 1).
 perPage (optional): Number of records per page (default: 10).
+
 3. Get Statistics
 GET /api/transactions/statistics
 
@@ -51,6 +52,7 @@ Returns:
 Total sale amount
 Total number of sold items
 Total number of unsold items
+
 4. Bar Chart Data
 GET /api/transactions/bar-chart
 
@@ -59,14 +61,15 @@ month (required): Month for which to fetch bar chart data.
 Returns:
 
 Number of items in each price range (0-100, 101-200, ..., 901+)
+
 5. Pie Chart Data
 GET /api/transactions/pie-chart
 
 Parameters:
 month (required): Month for which to fetch pie chart data.
 Returns:
-
 Number of items per unique category
+
 6. Combined Data
 GET /api/transactions/combined
 
