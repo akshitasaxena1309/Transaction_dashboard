@@ -1,0 +1,25 @@
+/* src/components/TransactionsBarChart.css */
+
+.transactions-bar-chart-container {
+  margin-top: 30px;
+  padding: 70px;
+  /* background-color: #f9f9f9; */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+canvas {
+  margin: 0 auto;
+}
+.chart-wrapper {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Set custom height */
+  max-width: 1000px; /* Set custom width */
+  margin: 0 auto;
+  /* font-size: larger; */
+}
